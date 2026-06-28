@@ -1,0 +1,41 @@
+mobius:
+  repository: mobius-digital-twin
+  product: Mobius Platform
+  capability: Predictive Organizational Modeling
+  department: Predictive Intelligence
+  owner: Mobius Technologies
+  mission: Model and simulate organizational outcomes from verified intelligence.
+  maturity: documented
+  consumes:
+    - memory-events
+    - pulse-metrics
+    - identity-context
+    - repository-dna
+  produces:
+    - scenario-models
+    - risk-forecasts
+    - predicted-outcomes
+  schemas:
+    - OrganizationGraph
+    - ScenarioModel
+    - RiskForecast
+  events:
+    - ScenarioModeled
+    - ForecastGenerated
+  dependencies:
+    - mobius-schema
+    - mobius-memory
+    - mobius-pulse
+    - mobius-identity
+  dependents:
+    - mobius-command-center
+  pulse_metrics:
+    - forecast-confidence
+    - scenario-accuracy
+  memory_events:
+    - scenario-created
+    - forecast-reviewed
+  architecture_version: Enterprise Alpha v0.1
+  genesis_version: Genesis v1.0
+  canon_version: Canon v1.0
+  sync_status: synchronized
