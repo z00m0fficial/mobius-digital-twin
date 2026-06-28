@@ -1,0 +1,15 @@
+repository: mobius-digital-twin
+version: 0.1.0
+status: documented
+layer: predictive-intelligence
+department: Predictive Intelligence
+service: Digital Twin
+mission: Model future organizational outcomes from verified context.
+capabilities:
+  - organization-graph
+  - scenario-planning
+  - risk-forecasting
+  - dependency-analysis
+quality_gates:
+  evidence_required: true
+  confidence_required: true
